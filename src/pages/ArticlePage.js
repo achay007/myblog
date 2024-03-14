@@ -1,0 +1,8 @@
+import React from 'react'
+
+export const ArticlePage = () => {
+  return (
+    <h1>This is the ArticlePage</h1>
+  )
+}
+export default ArticlePage;
