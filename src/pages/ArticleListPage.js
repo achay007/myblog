@@ -1,8 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import articles from "./article-content";
+import { ArticlesLists } from "../components/ArticlesLists";
 export const ArticleListPage = () => {
   return (
-    <h1>This is the ArticleListPage</h1>
-  )
-}
+    <>
+      <h1>Articles</h1>
+      <ArticlesLists articles={articles} />
+    </>
+  );
+};
 export default ArticleListPage;
